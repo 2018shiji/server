@@ -31,7 +31,7 @@ public class BioServer {
             InputStream in = socket.getInputStream();
             InputStreamReader inReader = new InputStreamReader(in);
             BufferedReader bufReader = new BufferedReader(inReader);
-            System.out.println("i am here here");
+            System.out.println("i am here here here");
 
             String line = "";
             StringBuilder content = new StringBuilder();
